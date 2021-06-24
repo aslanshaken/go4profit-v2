@@ -1,0 +1,7 @@
+.footer-main-container{
+    background-color: #E6E2DB;
+    height: 500px;
+    margin-top: 200px;
+    display: flex;
+    justify-content:space-around;
+}

@@ -1,0 +1,36 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 50px 150px;
+}
+.header-text {
+  margin: 0px 20px 0px 20px;
+  color: #ceb19c;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.header-text:hover {
+  color: black;
+  background-color: #ceb19c;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-book-call {
+  background-color: #6d6d4a;
+  color: rgb(255, 255, 255);
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+.logo {
+  padding: 0px 20px 0px 20px;
+}
+
+#none {
+  text-decoration: none;
+  color: black;
+}
