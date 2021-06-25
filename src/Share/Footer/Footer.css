@@ -1,7 +1,18 @@
 .footer-main-container{
     background-color: #E6E2DB;
     height: 500px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content:space-around;
+}
+
+.footer-box{
+    margin-top: 100px;
+}
+
+.footer-map{
+    width: 700px; 
+    height: 350px;
+    border: 0px;
+    margin-top: -20px;
 }
