@@ -1,0 +1,88 @@
+.home-main-container {
+  /* margin-bottom: 100px; */
+}
+
+.home-main-img {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+
+.home-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  z-index: -100;
+  position: relative;
+}
+
+#home {
+  font-size: 50px;
+}
+
+.home-img-text {
+  color: #494949;
+}
+
+.home-boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 50px 50px 50px;
+  background-color: #f4f4f4;
+}
+
+.home-box-image {
+  width: 700px;
+}
+
+.home-upper-box {
+  width: 1000px;
+  font-size: 20px;
+}
+
+.home-main-steps {
+  width: 100%;
+  height: 150px;
+  background-color: #ceb19c;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.home-main-steps img {
+  width: 50px;
+}
+
+#home-bookkeeping {
+  font-size: 50px;
+}
+.home-all-plans {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0px 100px 0px;
+}
+
+.home-box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 5px 5px 5px gray;
+}
+.home-box h1 {
+  color: #ceb19c;
+}
+
+.home-box-cleanup {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 5px 5px 5px gray;
+  height: 300px;
+}
+.home-book {
+  background-color: #6d6d4a;
+  color: rgb(255, 255, 255);
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 20px;
+}

@@ -8,6 +8,7 @@ import AboutMe from './Screens/About Me/AboutMe'
 import Services from './Screens/Services/Services'
 import Contact from './Screens/Contact/Contact'
 import Book from './Screens/Book/Book'
+import Home from './Screens/Home/Home'
 
 function App() {
   return (
@@ -23,8 +24,11 @@ function App() {
           <Route path='/services'>
             <Services />
           </Route>
-          <Route path="/">
+          <Route path="/about">
             <AboutMe />
+          </Route>
+          <Route path='/'>
+            <Home />
           </Route>
         </Switch>
       </Layout>
