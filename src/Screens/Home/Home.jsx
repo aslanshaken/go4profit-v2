@@ -20,9 +20,9 @@ export default function Home() {
                             FOR ALL TYPE OF BUSINESSES</h2>
                         <h4>Get started today with a free consultation!</h4>
                     </div>
-                    <h1>No more Bookkeeping hassles. We can handle it.</h1>
+                    <h1 className="home-img-text2">No more Bookkeeping hassles. We can handle it.</h1>
                     Real people.
-                    Real Certified Bookkeepers.
+                    Real Certified Bookkeepers. 
                     Highly focused on your financial success.
                     You deserve better to have the success of your businessI
                 </div>

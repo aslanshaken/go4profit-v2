@@ -37,3 +37,54 @@
   text-decoration: none;
   color: black;
 }
+
+.header-cell-container {
+  display: none;
+}
+
+/* Cell Phone */
+
+/* Iphone X */
+@media only screen and (max-width: 377px) {
+  .header-container{
+    display: none;
+  }
+  
+  .header-cell-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  #nav-img {
+    width: 50px;
+  }
+  .logo-cell {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .header-cell-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 1s;
+  }
+
+  #nav-close-img {
+    width: 50px;
+    background-color: #ceb19c;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+}
