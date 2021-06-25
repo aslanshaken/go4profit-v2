@@ -6,12 +6,20 @@ import Layout from './Share/Layout/Layout';
 // Forward Address
 import AboutMe from './Screens/About Me/AboutMe'
 import Services from './Screens/Services/Services'
+import Contact from './Screens/Contact/Contact'
+import Book from './Screens/Book/Book'
 
 function App() {
   return (
     <div className="App">
       <Layout>
         <Switch>
+          <Route path='/book'>
+            <Book />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
+          </Route>
           <Route path='/services'>
             <Services />
           </Route>

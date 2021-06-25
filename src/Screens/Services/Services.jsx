@@ -75,11 +75,11 @@ export default function Services() {
                     <Link to="#" id="none"><h4 className="services-book">Book a Call</h4></Link>
                 </div>
                 <div className="services-box-cleanup">
-                    <h1>Clean Up Services</h1>
+                    <h2>Clean Up Services</h2>
                     <hr />
-                    <h2>Request Quote</h2>
+                    <h3>Request Quote</h3>
                     <hr/>
-                    <h2>Book a call for custom pricing and packages</h2>
+                    <h3>Book a call for custom pricing and packages</h3>
                     <hr/>
                     <Link to="#" id="none"><h4 className="services-book">Book a Call</h4></Link>
                 </div>
