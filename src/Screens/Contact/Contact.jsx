@@ -1,5 +1,5 @@
 import './Contact.css'
-import City from '../../Assets/contact-11.jpg'
+import City from '../../Assets/contact-18.jpg'
 import Call from '../../Assets/call-us.png'
 import Email from '../../Assets/email-5.png'
 import Social from '../../Assets/social.png'

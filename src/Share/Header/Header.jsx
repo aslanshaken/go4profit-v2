@@ -10,10 +10,9 @@ export default function Nav() {
             <div className="header-container">
                 <Link to="/about" id="none"><div className="header-text">About Me</div></Link>
                 <Link to="/services" id="none"><div className="header-text">Services</div></Link>
-                {/* <Link to="#" id="none"><div className="header-text">Blog</div></Link> */}
                 <Link to="/"><img className='logo' src={Logo} /></Link>
                 <Link to="/contact" id="none"><div className="header-text">Contact</div></Link>
-                <Link to="#" id="none"><div className="header-text">(917)-200-7509</div></Link>
+                <Link to="#" id="none"><div className="header-text">(917)-200-7609</div></Link>
                 <Link to="/book" id="none"><div className="header-book-call">Book A Call</div></Link>
             </div>
 
@@ -38,6 +37,7 @@ export default function Nav() {
                                     : "https://img.icons8.com/cotton/64/000000/menu.png"
                                 }
                             />
+                            <Link to="/" id="none"><div className="header-text" onClick={() => setClose(!close)}>Home</div></Link>
                             <Link to="/about" id="none"><div className="header-text" onClick={() => setClose(!close)}>About Me</div></Link>
                             <Link to="/services" id="none"><div className="header-text" onClick={() => setClose(!close)}>Services</div></Link>
                             <Link to="/contact" id="none"><div className="header-text" onClick={() => setClose(!close)}>Contact</div></Link>

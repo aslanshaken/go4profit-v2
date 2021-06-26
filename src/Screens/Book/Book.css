@@ -26,7 +26,62 @@
   align-items: center;
 }
 
-#calendly{
+#calendly {
   height: 700px;
-  
+}
+
+/* Iphone X */
+@media only screen and (max-width: 377px) {
+  .book-main-container {
+    margin-bottom: 0px;
+  }
+  .book-img {
+    width: 375px;
+    height: 250px;
+  }
+
+  #book {
+    font-size: 30px;
+  }
+
+  .calendly-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e2db;
+    padding-top: 50px;
+  }
+
+  #calendly {
+    height: 940px;
+    width: 300px;
+  }
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 416px) {
+  .book-main-container {
+    margin-bottom: 0px;
+  }
+  .book-img {
+    width: 414px;
+    height: 250px;
+  }
+
+  #book {
+    font-size: 30px;
+  }
+
+  .calendly-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e2db;
+    padding-top: 50px;
+  }
+
+  #calendly {
+    height: 940px;
+    width: 300px;
+  }
 }

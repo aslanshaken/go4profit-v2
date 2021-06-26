@@ -1,5 +1,5 @@
 import './Services.css'
-import Nature from '../../Assets/services-11.jpg'
+import Nature from '../../Assets/nycity-2.jpg'
 import { Link } from 'react-router-dom';
 
 export default function Services() {
@@ -28,7 +28,7 @@ export default function Services() {
                     <hr />
                     <h4>No contract (30 days notice required to cancel) </h4>
                     <hr />
-                    <Link to="#" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
                 </div>
                 <div className="services-box">
                     <h1>Standard</h1>
@@ -50,7 +50,7 @@ export default function Services() {
                     <hr />
                     <h4>No contract (30 days notice required to cancel) </h4>
                     <hr />
-                    <Link to="#" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
                 </div>
                 <div className="services-box">
                     <h1>Premium</h1>
@@ -72,7 +72,7 @@ export default function Services() {
                     <hr />
                     <h4>No contract (30 days notice required to cancel) </h4>
                     <hr />
-                    <Link to="#" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
                 </div>
                 <div className="services-box-cleanup">
                     <h2>Clean Up Services</h2>
@@ -81,7 +81,7 @@ export default function Services() {
                     <hr/>
                     <h3>Book a call for custom pricing and packages</h3>
                     <hr/>
-                    <Link to="#" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
                 </div>
             </div>
         </div>

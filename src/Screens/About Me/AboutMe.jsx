@@ -1,4 +1,5 @@
 import './AboutMe.css'
+import { Link } from 'react-router-dom';
 import City from '../../Assets/9.jpg'
 import Ainura from '../../Assets/Ainura.jpeg'
 import Phone from '../../Assets/phone.png'
@@ -12,7 +13,6 @@ export default function AboutMe() {
         <div className='about-me-main-container'>
             <div className="about-me-main-img"> <img className="about-me-img" src={City} /></div>
             <div className="about-me">
-                <div><img className="about-me-ainura" src={Ainura} /></div>
                 <div>
                     <h2>Hi! I'm Amy, your Virtual Bookkeeper!</h2>
                     <div className="about-me-text">
@@ -43,10 +43,11 @@ export default function AboutMe() {
                         </p>
                     </div>
                 </div>
+                <div><img className="about-me-ainura" src={Ainura} /></div>
             </div>
             <div className='about-me-main-steps'>
-                <div><img src={Phone} /> <h2>1. Schedule a free consultation</h2></div>
-                <div><img src={Choose} /> <h2>2. Choose a plan</h2></div>
+                <div><Link to="/book" id="none"><img src={Phone} /> <h2>1. Schedule a free consultation</h2></Link></div>
+                <div><Link to="/services" id="none"><img src={Choose} /> <h2>2. Choose a plan</h2></Link></div>
                 <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
             </div>
             <div className='about-me-main-certifications'>

@@ -20,19 +20,105 @@
   font-size: 50px;
 }
 
-.contact-main-boxes{
-    display: flex;
-    justify-content: space-around;
+.contact-main-boxes {
+  display: flex;
+  justify-content: space-around;
 }
 
-.contact-box{
-    border: 1px solid  black;
-    box-shadow: 5px 5px 5px gray;
+.contact-box {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px gray;
+  padding: 3%;
+  border-radius: 20px;
+  width: 230px;
+}
+
+.contact-box img {
+  width: 100px;
+}
+
+/* Iphone X */
+@media only screen and (max-width: 377px) {
+  .contact-main-container {
+    margin-bottom: 100px;
+  }
+
+  .contact-img {
+    width: 375px;
+    height: 250px;
+  }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  .contact-main-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-box {
     padding: 3%;
     border-radius: 20px;
-    width: 230px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .contact-box h1 {
+    font-size: 20px;
+  }
+
+  .contact-box h3 {
+    font-size: 13px;
+  }
+
+
+  .contact-box img {
+    width: 50px;
+  }
 }
 
-.contact-box img{
-    width: 100px;
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 416px) {
+  .contact-main-container {
+    margin-bottom: 100px;
+  }
+
+  .contact-img {
+    width: 414px;
+    height: 250px;
+  }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  .contact-main-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-box {
+    padding: 3%;
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .contact-box h1 {
+    font-size: 20px;
+  }
+
+  .contact-box h3 {
+    font-size: 13px;
+  }
+
+
+  .contact-box img {
+    width: 50px;
+  }
 }

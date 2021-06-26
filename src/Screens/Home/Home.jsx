@@ -1,7 +1,6 @@
 import './Home.css'
 import { Link } from 'react-router-dom';
 import Account from '../../Assets/account.jpg'
-import Tired from '../../Assets/home.jpeg'
 import People from '../../Assets/home-3.jpg'
 import Phone from '../../Assets/phone.png'
 import Choose from '../../Assets/choose2.png'
@@ -28,8 +27,8 @@ export default function Home() {
                 </div>
             </div>
             <div className='home-main-steps'>
-                <div><img src={Phone} /> <h2>1. Schedule a free consultation</h2></div>
-                <div><img src={Choose} /> <h2>2. Choose a plan</h2></div>
+                <div><Link to="/book" id="none"><img src={Phone} /> <h2>1. Schedule a free consultation</h2></Link></div>
+                <div><Link to="/services" id="none"><img src={Choose} /> <h2>2. Choose a plan</h2></Link></div>
                 <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
             </div>
             <p id='home-bookkeeping'>Bookkeeping Services</p>
@@ -54,7 +53,7 @@ export default function Home() {
                     <hr />
                     <h4>No contract (30 days notice required to cancel) </h4>
                     <hr />
-                    <Link to="#" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
                 </div>
                 <div className="home-box">
                     <h1>Standard</h1>
@@ -76,7 +75,7 @@ export default function Home() {
                     <hr />
                     <h4>No contract (30 days notice required to cancel) </h4>
                     <hr />
-                    <Link to="#" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
                 </div>
                 <div className="home-box">
                     <h1>Premium</h1>
@@ -98,7 +97,7 @@ export default function Home() {
                     <hr />
                     <h4>No contract (30 days notice required to cancel) </h4>
                     <hr />
-                    <Link to="#" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
                 </div>
                 <div className="home-box-cleanup">
                     <h2>Clean Up Service</h2>
@@ -107,7 +106,7 @@ export default function Home() {
                     <hr />
                     <h3>Book a call for custom pricing and packages</h3>
                     <hr />
-                    <Link to="#" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
                 </div>
             </div>
             <div className='home-footer'>

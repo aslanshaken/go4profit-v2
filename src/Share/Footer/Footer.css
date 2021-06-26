@@ -16,6 +16,7 @@
   margin-top: -20px;
 }
 
+/* iphone X */
 @media only screen and (max-width: 377px) {
   .footer-main-container {
     background-color: #e6e2db;
@@ -31,6 +32,28 @@
 
   .footer-map {
     width: 375px;
+    height: 250px;
+    border: 0px;
+    margin-top: -20px;
+  }
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (max-width: 416px) {
+  .footer-main-container {
+    background-color: #e6e2db;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .footer-box {
+    margin-top: 100px;
+  }
+
+  .footer-map {
+    width: 416px;
     height: 250px;
     border: 0px;
     margin-top: -20px;
