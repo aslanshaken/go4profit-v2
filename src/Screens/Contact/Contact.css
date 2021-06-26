@@ -37,75 +37,25 @@
   width: 100px;
 }
 
-/* Iphone X */
-@media only screen and (max-width: 377px) {
+/* Ipad Pro*/
+@media only screen and (max-width: 1025px) {
   .contact-main-container {
     margin-bottom: 100px;
   }
 
   .contact-img {
-    width: 375px;
-    height: 250px;
+    width: 100%;
+    height: 400px;
   }
 
   #contact {
-    font-size: 30px;
-  }
-
-  .contact-main-boxes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    font-size: 40px;
   }
 
   .contact-box {
     padding: 3%;
     border-radius: 20px;
-    width: 200px;
-    margin-bottom: 30px;
-  }
-
-  .contact-box h1 {
-    font-size: 20px;
-  }
-
-  .contact-box h3 {
-    font-size: 13px;
-  }
-
-
-  .contact-box img {
-    width: 50px;
-  }
-}
-
-/* Iphone 6/7/8 PLUS */
-@media only screen and (max-width: 416px) {
-  .contact-main-container {
-    margin-bottom: 100px;
-  }
-
-  .contact-img {
-    width: 414px;
-    height: 250px;
-  }
-
-  #contact {
-    font-size: 30px;
-  }
-
-  .contact-main-boxes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .contact-box {
-    padding: 3%;
-    border-radius: 20px;
-    width: 200px;
+    width: 180px;
     margin-bottom: 30px;
   }
 
@@ -163,5 +113,143 @@
 
   .contact-box img {
     width: 50px;
+  }
+}
+
+/* Surface Duo */
+@media only screen and (max-width: 540px) {
+  .contact-main-container {
+    margin-bottom: 100px;
+  }
+
+  .contact-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  .contact-main-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-box {
+    padding: 3%;
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .contact-box h1 {
+    font-size: 20px;
+  }
+
+  .contact-box h3 {
+    font-size: 13px;
+  }
+
+
+  .contact-box img {
+    width: 50px;
+  }
+}
+
+
+/* Iphone 6/7/8 PLUS */
+@media only screen and (max-width: 416px) {
+  .contact-main-container {
+    margin-bottom: 100px;
+  }
+
+  .contact-img {
+    width: 414px;
+    height: 250px;
+  }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  .contact-main-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-box {
+    padding: 3%;
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .contact-box h1 {
+    font-size: 20px;
+  }
+
+  .contact-box h3 {
+    font-size: 13px;
+  }
+
+
+  .contact-box img {
+    width: 50px;
+  }
+}
+
+/* Iphone X */
+@media only screen and (max-width: 377px) {
+  .contact-main-container {
+    margin-bottom: 100px;
+  }
+
+  .contact-img {
+    width: 375px;
+    height: 250px;
+  }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  .contact-main-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-box {
+    padding: 3%;
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .contact-box h1 {
+    font-size: 20px;
+  }
+
+  .contact-box h3 {
+    font-size: 13px;
+  }
+
+
+  .contact-box img {
+    width: 50px;
+  }
+}
+
+/* Moto G4 and Samsung S5 */
+@media only screen and (max-width: 361px) {
+  .contact-img {
+    width: 100%;
+    height: 250px;
   }
 }

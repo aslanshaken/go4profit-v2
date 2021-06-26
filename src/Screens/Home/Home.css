@@ -92,16 +92,16 @@
   background-color: #ceb19c;
 }
 
-/* Iphone X */
-@media only screen and (max-width: 377px) {
+/* Ipad Pro*/
+@media only screen and (max-width: 1025px) {
   .home-img {
-    width: 375px;
-    height: 250px;
+    width: 100%;
+    height: 400px;
   }
 
   .home-img-text {
-    font-size: 10px;
-    width: 375px !important;
+    font-size: 15px;
+    width: 100%;
   }
 
   .home-boxes {
@@ -109,7 +109,182 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0px 0px 50px 0px;
-    width: 375px !important;
+    width: 100%;
+  }
+
+  .home-box-image {
+    width: 700px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .home-main-steps {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+
+  .home-main-steps h2 {
+    font-size: 20px;
+  }
+  .home-main-steps img {
+    width: 30px;
+  }
+
+  #home-bookkeeping {
+    font-size: 30px;
+  }
+  .home-all-plans {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .home-box {
+    padding: 10px;
+    width: 700px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-box-cleanup {
+    padding: 10px;
+    width: 700px;
+    height: 250px;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-book {
+    margin: 0px 30px 0px 30px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  .home-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #ceb19c;
+  }
+
+  .home-footer h2 {
+    font-size: 15px;
+  }
+}
+
+
+/* Ipad*/
+@media only screen and (max-width: 770px) {
+  .home-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .home-img-text {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .home-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
+  }
+
+  .home-box-image {
+    width: 700px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .home-main-steps {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+
+  .home-main-steps h2 {
+    font-size: 20px;
+  }
+  .home-main-steps img {
+    width: 40px;
+  }
+
+  #home-bookkeeping {
+    font-size: 30px;
+  }
+  .home-all-plans {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .home-box {
+    padding: 10px;
+    width: 700px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-box-cleanup {
+    padding: 10px;
+    width: 700px;
+    height: 300px;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-book {
+    margin: 0px 30px 0px 30px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  .home-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #ceb19c;
+  }
+
+  .home-footer h2 {
+    font-size: 15px;
+  }
+}
+
+/* Surface Duo*/
+@media only screen and (max-width: 542px) {
+  .home-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .home-img-text {
+    font-size: 10px;
+    width: 540px !important;
+  }
+
+  .home-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 0px 0px;
+    width: 540px !important;
   }
 
   .home-box-image {
@@ -118,7 +293,7 @@
   }
 
   .home-main-steps {
-    width: 375px;
+    width: 100%;
     height: 280px;
     display: flex;
     flex-direction: column;
@@ -167,7 +342,7 @@
   }
 
   .home-footer {
-    width: 375px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +354,7 @@
     font-size: 15px;
   }
 }
+
 
 /* Iphone 6/7/8 PLUS*/
 @media only screen and (max-width: 416px) {
@@ -268,16 +444,104 @@
   }
 }
 
-/* Ipad*/
-@media only screen and (max-width: 770px) {
+/* Iphone X */
+@media only screen and (max-width: 377px) {
   .home-img {
-    width: 100%;
-    height: auto;
+    width: 375px;
+    height: 250px;
   }
 
   .home-img-text {
-    font-size: 20px;
+    font-size: 10px;
+    width: 375px !important;
+  }
+
+  .home-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 50px 0px;
+    width: 375px !important;
+  }
+
+  .home-box-image {
+    width: 300px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .home-main-steps {
+    width: 375px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+
+  .home-main-steps h2 {
+    font-size: 15px;
+  }
+  .home-main-steps img {
+    width: 30px;
+  }
+
+  #home-bookkeeping {
+    font-size: 30px;
+  }
+  .home-all-plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .home-box {
+    padding: 10px;
+    width: 300px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-box-cleanup {
+    padding: 10px;
+    width: 300px;
+    height: 260px;
+    font-size: 15px;
+  }
+
+  .home-book {
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+
+  .home-footer {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #ceb19c;
+  }
+
+  .home-footer h2 {
+    font-size: 15px;
+  }
+}
+
+/* Moto G4 and Samsung S5 */
+@media only screen and (max-width: 361px) {
+  .home-img {
     width: 100%;
+    height: 250px;
+  }
+
+  .home-img-text {
+    font-size: 10px;
+    width: 360px !important;
   }
 
   .home-boxes {
@@ -289,13 +553,13 @@
   }
 
   .home-box-image {
-    width: 700px;
+    width: 300px;
     margin: 20px 0px 0px 0px;
   }
 
   .home-main-steps {
-    width: 776px;
-    height: 480px;
+    width: 100%;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -305,7 +569,7 @@
   }
 
   .home-main-steps h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .home-main-steps img {
     width: 30px;
@@ -316,29 +580,30 @@
   }
   .home-all-plans {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 50px 0px 50px 0px;
   }
 
   .home-box {
     padding: 10px;
-    width: 700px;
+    width: 300px;
     margin: 20px 0px 20px 0px;
   }
 
   .home-box-cleanup {
     padding: 10px;
-    width: 700px;
-    height: 280px;
+    width: 300px;
+    height: 260px;
     font-size: 15px;
-    margin: 20px 0px 20px 0px;
   }
 
   .home-book {
-    margin: 0px 30px 0px 30px;
+    margin: 0px 50px 0px 50px;
     padding: 10px;
     font-weight: 600;
     border-radius: 20px;
-    font-size: 10px;
   }
 
   .home-footer {
@@ -346,7 +611,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 150px;
     background-color: #ceb19c;
   }
 
@@ -354,3 +619,5 @@
     font-size: 15px;
   }
 }
+
+

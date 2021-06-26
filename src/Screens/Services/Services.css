@@ -51,10 +51,52 @@
   border-radius: 20px;
 }
 
-/* Iphone X */
-@media only screen and (max-width: 377px) {
+/* Ipad Pro*/
+@media only screen and (max-width: 1025px) {
   .services-img {
-    width: 375px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .services-box-cleanup {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 5px gray;
+    height: 270px;
+  }
+
+}
+
+/* Ipad*/
+@media only screen and (max-width: 770px) {
+  .services-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .services-box-cleanup {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 5px gray;
+    height: 320px;
+  }
+  #bookkeeping {
+    font-size: 40px;
+  }
+  .services-book {
+    margin: 0px 20px 0px 20px;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 20px;
+  }
+}
+
+/* Moto G4 and Samsung S5*/
+@media only screen and (max-width: 542px) {
+  .services-img {
+    width: 100%;
     height: 250px;
   }
 
@@ -139,15 +181,15 @@
   }
 }
 
-/* Ipad*/
-@media only screen and (max-width: 770px) {
+/* Iphone X */
+@media only screen and (max-width: 377px) {
   .services-img {
-    width: 768px;
-    height: auto;
+    width: 375px;
+    height: 250px;
   }
 
   #bookkeeping {
-    font-size: 40px;
+    font-size: 30px;
   }
   .services-all-plans {
     display: flex;
@@ -159,7 +201,7 @@
 
   .services-box {
     padding: 10px;
-    width: 700px;
+    width: 300px;
     margin: 20px 0px 20px 0px;
   }
   .services-box h1 {
@@ -169,9 +211,9 @@
   .services-box-cleanup {
     border: 1px solid black;
     padding: 10px;
-    width: 700px;
+    width: 300px;
     box-shadow: 5px 5px 5px gray;
-    height: 250px;
+    height: 300px;
   }
   .services-book {
     background-color: #6d6d4a;
@@ -183,3 +225,35 @@
   }
 }
 
+/* Moto G4 and Samsung S5 */
+@media only screen and (max-width: 361px) {
+  .services-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .services-box {
+    padding: 10px;
+    width: 280px;
+    margin: 20px 0px 20px 0px;
+  }
+  .services-box h1 {
+    color: #ceb19c;
+  }
+
+  .services-box-cleanup {
+    border: 1px solid black;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 5px 5px 5px gray;
+    height: 260px;
+  }
+  .services-book {
+    background-color: #6d6d4a;
+    color: rgb(255, 255, 255);
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 20px;
+  }
+}

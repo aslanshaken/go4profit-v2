@@ -85,7 +85,6 @@ export default function Home() {
                     <hr />
                     <h4>Account set up and monthly subscription in QBO</h4>
                     <hr />
-                    <br />
                     <h4>Monthly recording, classifying and reconciling of up to 5 bank/credit card accounts </h4>
                     <hr />
                     <h4>3 monthly financial reports (explained in layman's terms for clarity)</h4>

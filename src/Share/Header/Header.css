@@ -1,7 +1,7 @@
 .header-container {
   display: flex;
   justify-content: center;
-  margin: 50px 0px 50px 150px;
+  margin: 50px 0px 50px 0px;
 }
 .header-text {
   margin: 0px 20px 0px 20px;
@@ -41,12 +41,43 @@
 
 /* Cell Phone */
 
-/* Iphone X */
-@media only screen and (max-width: 377px) {
-  .header-container{
+/* Ipad Pro*/
+@media only screen and (max-width: 1025px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 60px;
+  }
+  .header-text {
+    margin: 0px 20px 0px 20px;
+    color: #ceb19c;
+    padding: 10px;
+    font-weight: 400;
+  }
+}
+
+/* Ipad*/
+@media only screen and (max-width: 770px) {
+  .header-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+  }
+  .header-text {
+    margin: 0px 0px 0px 0px;
+    color: #ceb19c;
+    padding: 10px;
+    font-weight: 0px;
+    font-size: 15px;
+  }
+}
+
+/* Surface Duo */
+@media only screen and (max-width: 542px) {
+  .header-container {
     display: none;
   }
-  
+
   .header-cell-container {
     display: flex;
     flex-direction: column;
@@ -88,10 +119,10 @@
 
 /* Iphone 6/7/8  PLUS*/
 @media only screen and (max-width: 416px) {
-  .header-container{
+  .header-container {
     display: none;
   }
-  
+
   .header-cell-container {
     display: flex;
     flex-direction: column;
@@ -131,12 +162,12 @@
   }
 }
 
-/* Ipad*/
-@media only screen and (max-width: 770px) {
-  .header-container{
+/* Iphone X */
+@media only screen and (max-width: 377px) {
+  .header-container {
     display: none;
   }
-  
+
   .header-cell-container {
     display: flex;
     flex-direction: column;
@@ -146,11 +177,10 @@
   }
 
   #nav-img {
-    width: 70px;
-    margin-bottom: 20px;
+    width: 50px;
   }
   .logo-cell {
-    padding: 20px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
   }
 
   .header-cell-box {

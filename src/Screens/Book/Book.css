@@ -30,13 +30,57 @@
   height: 700px;
 }
 
-/* Iphone X */
-@media only screen and (max-width: 377px) {
+/* Ipad Pro*/
+@media only screen and (max-width: 1025px) {
   .book-main-container {
     margin-bottom: 0px;
   }
   .book-img {
-    width: 375px;
+    width: 100%;
+    height: 400px;
+  }
+
+  #book {
+    font-size: 40px;
+  }
+
+}
+
+/* Ipad */
+@media only screen and (max-width: 770px) {
+  .book-main-container {
+    margin-bottom: 0px;
+  }
+  .book-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  #book {
+    font-size: 40px;
+  }
+
+  .calendly-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e2db;
+    padding-top: 50px;
+  }
+
+  #calendly {
+    height: 1040px;
+    width: 700px;
+  }
+}
+
+/* Surface Duo */
+@media only screen and (max-width: 540px) {
+  .book-main-container {
+    margin-bottom: 0px;
+  }
+  .book-img {
+    width: 100%;
     height: 250px;
   }
 
@@ -54,9 +98,10 @@
 
   #calendly {
     height: 940px;
-    width: 300px;
+    width: 400px;
   }
 }
+
 
 /* Iphone 6/7/8 PLUS */
 @media only screen and (max-width: 416px) {
@@ -86,18 +131,18 @@
   }
 }
 
-/* Ipad */
-@media only screen and (max-width: 770px) {
+/* Iphone X */
+@media only screen and (max-width: 377px) {
   .book-main-container {
     margin-bottom: 0px;
   }
   .book-img {
-    width: 100%;
-    height: auto;
+    width: 375px;
+    height: 250px;
   }
 
   #book {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .calendly-main {
@@ -109,7 +154,16 @@
   }
 
   #calendly {
-    height: 1040px;
-    width: 700px;
+    height: 940px;
+    width: 300px;
   }
 }
+
+/*  Moto G4 and Samsung S5 */
+@media only screen and (max-width: 361px) {
+  .book-img {
+    width: 100%;
+    height: 250px;
+  }
+}
+

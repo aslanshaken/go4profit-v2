@@ -79,10 +79,167 @@
   height: 400px;
 }
 
-/* Iphone X */
-@media only screen and (max-width: 377px) {
+/* Ipad Pro */
+@media only screen and (max-width: 1025px) {
   .about-me-img {
-    width: 375px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .about-me {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .about-me-ainura {
+    width: 300px;
+    margin: 30px 0px 50px 0px;
+  }
+
+  .about-me-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .about-me-main-steps {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+  }
+  .about-me-main-steps img {
+    width: 40px;
+  }
+
+  .about-me-main-steps h2 {
+    font-size: 20px;
+  }
+
+  #none-black {
+    color: black;
+  }
+
+  .about-me-main-certifications {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-me-certifications {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .about-me-certifications-text {
+    width: 776px;
+  }
+
+  .about-me-certifications-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #certification1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  #certification2 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+/* Ipad */
+@media only screen and (max-width: 770px) {
+  .about-me-img {
+    width: 776px;
+    height: 400px;
+  }
+
+  .about-me {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .about-me-ainura {
+    width: 300px;
+    margin: 30px 0px 50px 0px;
+  }
+
+  .about-me-text {
+    display: flex;
+    flex-direction: column;
+    width: 776px;
+    line-height: 20px;
+  }
+
+  .about-me-main-steps {
+    width: 776px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+  .about-me-main-steps img {
+    width: 30px;
+  }
+
+  .about-me-main-steps h2 {
+    font-size: 15px;
+  }
+
+  #none-black {
+    color: black;
+  }
+
+  .about-me-main-certifications {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-me-certifications {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .about-me-certifications-text {
+    width: 776px;
+  }
+
+  .about-me-certifications-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #certification1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  #certification2 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+/* Surface Duo */
+@media only screen and (max-width: 542px) {
+  .about-me-img {
+    width: 100%;
     height: 250px;
   }
 
@@ -99,12 +256,12 @@
   .about-me-text {
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 100%;
     line-height: 20px;
   }
 
   .about-me-main-steps {
-    width: 375px;
+    width: 100%;
     height: 280px;
     display: flex;
     flex-direction: column;
@@ -137,7 +294,7 @@
     padding: 20px;
   }
   .about-me-certifications-text {
-    width: 350px;
+    width: 100%;
   }
 
   .about-me-certifications-main-text {
@@ -237,11 +394,11 @@
   }
 }
 
-/* Ipad */
-@media only screen and (max-width: 770px) {
+/* Iphone X */
+@media only screen and (max-width: 377px) {
   .about-me-img {
-    width: 776px;
-    height: auto;
+    width: 375px;
+    height: 250px;
   }
 
   .about-me {
@@ -250,20 +407,20 @@
   }
 
   .about-me-ainura {
-    width: 300px;
+    width: 250px;
     margin: 30px 0px 50px 0px;
   }
 
   .about-me-text {
     display: flex;
     flex-direction: column;
-    width: 776px;
+    width: 375px;
     line-height: 20px;
   }
 
   .about-me-main-steps {
-    width: 776px;
-    height: 380px;
+    width: 375px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -295,7 +452,7 @@
     padding: 20px;
   }
   .about-me-certifications-text {
-    width: 776px;
+    width: 350px;
   }
 
   .about-me-certifications-main-text {
@@ -307,6 +464,47 @@
 
   #certification1 {
     width: 200px;
+    height: 200px;
+  }
+
+  #certification2 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+/* Moto G4 and Samsung S5 */
+@media only screen and (max-width: 361px) {
+  .about-me-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .about-me-text {
+    width: 100%;
+  }
+
+  .about-me-main-steps {
+    width: 100%;
+  }
+
+  .about-me-certifications-main-text h1 {
+    font-size: 25px;
+  }
+
+  .about-me-certifications-text {
+    width: 340px;
+  }
+
+  .about-me-certifications-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #certification1 {
+    width: 180px;
     height: 200px;
   }
 
