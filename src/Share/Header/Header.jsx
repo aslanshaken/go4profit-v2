@@ -25,10 +25,7 @@ export default function Nav() {
                 <img
                     id="nav-img"
                     onClick={() => setClose(!close)}
-                    src={close
-                        ? "https://img.icons8.com/ios/50/000000/circled-x.png"
-                        : "https://img.icons8.com/cotton/64/000000/menu.png"
-                    }
+                    src="https://img.icons8.com/cotton/64/000000/menu.png"
                 />
                 {close &&
                     <>

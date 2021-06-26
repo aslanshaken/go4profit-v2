@@ -1,5 +1,5 @@
 import './Services.css'
-import Nature from '../../Assets/nycity.jpg'
+import Nature from '../../Assets/services-11.jpg'
 import { Link } from 'react-router-dom';
 
 export default function Services() {

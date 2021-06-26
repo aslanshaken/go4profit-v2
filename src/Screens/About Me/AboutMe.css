@@ -1,3 +1,4 @@
+
 .about-me-main-img {
   display: flex;
   justify-content: center;
@@ -43,4 +44,38 @@
 }
 .about-me-main-steps img {
   width: 50px;
+}
+
+#none-black{
+  color: black;
+}
+.about-me-main-certifications{
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-certifications{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.about-me-certifications-text{
+  width: 600px;
+}
+
+.about-me-certifications-main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#certification1{
+  width: 400px;
+  height: 400px;
+}
+
+#certification2{
+  width: 300px;
+  height: 400px;
 }

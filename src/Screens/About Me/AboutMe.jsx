@@ -4,6 +4,8 @@ import Ainura from '../../Assets/Ainura.jpeg'
 import Phone from '../../Assets/phone.png'
 import Choose from '../../Assets/choose2.png'
 import Grow from '../../Assets/grow.png'
+import Launch from '../../Assets/certicate-1.png'
+import Launch2 from '../../Assets/certificate-10.png'
 
 export default function AboutMe() {
     return (
@@ -46,6 +48,22 @@ export default function AboutMe() {
                 <div><img src={Phone} /> <h2>1. Schedule a free consultation</h2></div>
                 <div><img src={Choose} /> <h2>2. Choose a plan</h2></div>
                 <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
+            </div>
+            <div className='about-me-main-certifications'>
+                <div className='about-me-certifications-main-text' >
+                    <h1>Bookkeeper Launch Certificate of Completion.</h1>
+                    <p className='about-me-certifications-text'>“The Bookkeeper Launch Certificate of Completion signifies that 
+                        the earner has learned and demonstrated in-depth understanding of 
+                        the skills and resources necessary to excel as a 21st Century 
+                        Bookkeeper and business owner.”
+                        <br />
+                        <br />
+                        Credentials <a href='https://www.credly.com/badges/ecf7c5f3-dc23-4ce1-a607-9bb7aacc1e3d' id="none-black" target="_blank">Bookkeepers.com</a></p>
+                </div>
+                <div className="about-me-certifications">
+                    <img id="certification1" src={Launch} />
+                    <img id="certification2" src={Launch2} />
+                </div>
             </div>
         </div>
     )

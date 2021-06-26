@@ -14,17 +14,14 @@ export default function Home() {
                 <img className="home-img" src={Account} />
             </div>
             <div className="home-boxes">
-                <div className='home-upper-box'>
-                    <div className="home-img-text">
-                        <h2>BOOKKEEPING SERVICES
-                            FOR ALL TYPE OF BUSINESSES</h2>
-                        <h4>Get started today with a free consultation!</h4>
-                    </div>
-                    <h1 className="home-img-text2">No more Bookkeeping hassles. We can handle it.</h1>
-                    Real people.
-                    Real Certified Bookkeepers. 
-                    Highly focused on your financial success.
-                    You deserve better to have the success of your businessI
+                <div className="home-img-text">
+                    <h2>BOOKKEEPING SERVICES
+                        FOR ALL TYPE OF BUSINESSES</h2>
+                    <h4>Get started today with a free consultation!</h4>
+                    <h3>As a bookkeeper, we can take the chore of maintaining your business’s books and
+                        allow you to grow your business.  We’ll ensure your books are accurate and your
+                        reports are timely.  This will ensure you are well equipped to make important
+                        financial decisions</h3>
                 </div>
                 <div>
                     <img className="home-box-image" src={People} />
@@ -113,7 +110,7 @@ export default function Home() {
                     <Link to="#" id="none"><h4 className="home-book">Book a Call</h4></Link>
                 </div>
             </div>
-            <div className='home-main-steps'>
+            <div className='home-footer'>
                 <h2>Are you tired from trying to keep up with your bookkeeping?
                     <hr />
                     We take the stress out of bookkeeping and we’re in the next door, virtually.</h2>

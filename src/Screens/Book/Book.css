@@ -1,22 +1,32 @@
 .book-main-container {
-    margin-bottom: 100px;
-  }
+  margin-bottom: 100px;
+}
+
+.book-main-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.book-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  z-index: -100;
+  position: relative;
+}
+
+#book {
+  font-size: 50px;
+}
+
+.calendly-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calendly{
+  height: 700px;
   
-  .book-main-img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-  }
-  
-  .book-img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    z-index: -100;
-    position: relative;
-  }
-  
-  #book {
-    font-size: 50px;
-  }
-  
+}
