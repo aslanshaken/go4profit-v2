@@ -93,7 +93,7 @@
 
   .about-me-ainura {
     width: 250px;
-    margin: 30px 0px 50px 0px ;
+    margin: 30px 0px 50px 0px;
   }
 
   .about-me-text {
@@ -158,7 +158,7 @@
   }
 }
 
-/* Iphone 6/7/8 */
+/* Iphone 6/7/8 PLUS */
 @media only screen and (max-width: 416px) {
   .about-me-img {
     width: 414px;
@@ -172,7 +172,7 @@
 
   .about-me-ainura {
     width: 250px;
-    margin: 30px 0px 50px 0px ;
+    margin: 30px 0px 50px 0px;
   }
 
   .about-me-text {
@@ -217,6 +217,85 @@
   }
   .about-me-certifications-text {
     width: 350px;
+  }
+
+  .about-me-certifications-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #certification1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  #certification2 {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+/* Ipad */
+@media only screen and (max-width: 770px) {
+  .about-me-img {
+    width: 776px;
+    height: auto;
+  }
+
+  .about-me {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .about-me-ainura {
+    width: 300px;
+    margin: 30px 0px 50px 0px;
+  }
+
+  .about-me-text {
+    display: flex;
+    flex-direction: column;
+    width: 776px;
+    line-height: 20px;
+  }
+
+  .about-me-main-steps {
+    width: 776px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+  .about-me-main-steps img {
+    width: 30px;
+  }
+
+  .about-me-main-steps h2 {
+    font-size: 15px;
+  }
+
+  #none-black {
+    color: black;
+  }
+
+  .about-me-main-certifications {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-me-certifications {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .about-me-certifications-text {
+    width: 776px;
   }
 
   .about-me-certifications-main-text {

@@ -175,12 +175,12 @@
     background-color: #ceb19c;
   }
 
-  .home-footer h2{
+  .home-footer h2 {
     font-size: 15px;
   }
 }
 
-/* Iphone 6/7/8 */
+/* Iphone 6/7/8 PLUS*/
 @media only screen and (max-width: 416px) {
   .home-img {
     width: 414px;
@@ -263,7 +263,94 @@
     background-color: #ceb19c;
   }
 
-  .home-footer h2{
+  .home-footer h2 {
+    font-size: 15px;
+  }
+}
+
+/* Ipad*/
+@media only screen and (max-width: 770px) {
+  .home-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-img-text {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .home-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
+  }
+
+  .home-box-image {
+    width: 700px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .home-main-steps {
+    width: 776px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+
+  .home-main-steps h2 {
+    font-size: 20px;
+  }
+  .home-main-steps img {
+    width: 30px;
+  }
+
+  #home-bookkeeping {
+    font-size: 30px;
+  }
+  .home-all-plans {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .home-box {
+    padding: 10px;
+    width: 700px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-box-cleanup {
+    padding: 10px;
+    width: 700px;
+    height: 280px;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .home-book {
+    margin: 0px 30px 0px 30px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  .home-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #ceb19c;
+  }
+
+  .home-footer h2 {
     font-size: 15px;
   }
 }

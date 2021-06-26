@@ -58,7 +58,7 @@
   }
 }
 
-/* Iphone 6/7/8 */
+/* Iphone 6/7/8 PLUS */
 @media only screen and (max-width: 416px) {
   .book-main-container {
     margin-bottom: 0px;
@@ -83,5 +83,33 @@
   #calendly {
     height: 940px;
     width: 300px;
+  }
+}
+
+/* Ipad */
+@media only screen and (max-width: 770px) {
+  .book-main-container {
+    margin-bottom: 0px;
+  }
+  .book-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #book {
+    font-size: 40px;
+  }
+
+  .calendly-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e2db;
+    padding-top: 50px;
+  }
+
+  #calendly {
+    height: 1040px;
+    width: 700px;
   }
 }
