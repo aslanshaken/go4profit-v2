@@ -1,6 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
-import { Switch, Route, useHistory } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Layout from './Share/Layout/Layout';
 
 // Forward Address
