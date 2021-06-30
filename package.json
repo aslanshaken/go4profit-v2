@@ -1,6 +1,5 @@
 {
   "name": "go4profit-v2",
-  "homepage":"http://go4profit.us",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
