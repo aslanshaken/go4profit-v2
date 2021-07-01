@@ -79,6 +79,19 @@
   height: 400px;
 }
 
+@media only screen and (max-width: 1344px) {
+  .about-me-text {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 1145px) {
+  .about-me-text {
+    width: 600px;
+  }
+}
+
+
 /* Ipad Pro */
 @media only screen and (max-width: 1025px) {
   .about-me-img {
