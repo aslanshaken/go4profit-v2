@@ -1,13 +1,35 @@
+.main-languges{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 40px 50px 0px 0px;
+}
+
+.languages{
+  width: 6.5%;
+  cursor: pointer;
+}
+
 .header-container {
   display: flex;
   justify-content: center;
-  margin: 50px 0px 50px 0px;
+  margin: 10px 0px 50px 0px;
 }
+
+#logoName{
+  text-decoration: none;
+  color: #ceb19c;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px 150px 0px 20px;
+}
+
 .header-text {
   margin: 0px 20px 0px 20px;
-  color: #ceb19c;
+  color: #9e7c64;
+  font-size: 20px ;
   padding: 10px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .header-text:hover {
@@ -26,8 +48,8 @@
   border-radius: 20px;
 }
 
-.logo {
-  padding: 0px 20px 0px 20px;
+.image-size {
+  width: 300px;
 }
 
 #none {

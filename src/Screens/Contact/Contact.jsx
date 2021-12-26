@@ -22,8 +22,8 @@ export default function Contact() {
                 </div>
                 <div className="contact-box">
                     <h1>Social Media</h1>
-                    <a href='https://www.linkedin.com/in/ainurzhunussova/' id="none"  target="_blank" ><img src={Social} /></a>
-                    <h3><a href='https://www.linkedin.com/in/ainurzhunussova/' id="none"  target="_blank" >Linkedin </a></h3>
+                    <a href='https://www.linkedin.com/in/ainurzhunussova/' id="none" target="_blank" ><img src={Social} /></a>
+                    <h3><a href='https://www.linkedin.com/in/ainurzhunussova/' id="none" target="_blank" >Linkedin </a></h3>
                 </div>
             </div>
         </div>

@@ -8,26 +8,28 @@ import Services from './Screens/Services/Services'
 import Contact from './Screens/Contact/Contact'
 import Book from './Screens/Book/Book'
 import Home from './Screens/Home/Home'
+import { useState } from 'react';
 
 function App() {
+  const [lang, setLang] = useState()
   return (
     <div className="App">
-      <Layout>
+      <Layout lang={lang} setLang={setLang}>
         <Switch>
           <Route path='/book'>
-            <Book />
+            <Book lang={lang} setLang={setLang} />
           </Route>
           <Route path='/contact'>
-            <Contact />
+            <Contact lang={lang} setLang={setLang} />
           </Route>
           <Route path='/services'>
-            <Services />
+            <Services lang={lang} setLang={setLang} />
           </Route>
           <Route path="/about">
-            <AboutMe />
+            <AboutMe lang={lang} setLang={setLang} />
           </Route>
           <Route path='/'>
-            <Home />
+            <Home lang={lang} setLang={setLang} />
           </Route>
         </Switch>
       </Layout>

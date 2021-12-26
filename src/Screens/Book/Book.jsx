@@ -2,11 +2,28 @@ import './Book.css'
 import City from '../../Assets/nyc-book.jpg'
 import React from 'react';
 
-export default function Book() {
+export default function Book(props) {
+    const { lang, setLang } = props
+    function Filter() {
+        if (lang == null || lang == 'eng') {
+            return (
+                <>
+                    <p id='book'>Book a free call today</p>
+                </>
+            )
+        }
+        else {
+            return (
+                <>
+                    <p id='book'>Получите бесплатную консультацию сегодня</p>
+                </>
+            )
+        }
+    }
     return (
         <div className="book-main-container">
             <div className="book-main-img"> <img className="book-img" src={City} /></div>
-            <p id='book'>Book a free call today</p>
+            {Filter()}
             <div className="calendly-main">
                 <iframe
                     id="calendly"
