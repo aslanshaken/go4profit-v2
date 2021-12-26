@@ -31,7 +31,7 @@ export default function Home(props) {
                         </div>
                     </div>
                     <div class="container-md mt-5 mb-5">
-                        <p class="fs-4">"I don’t really enjoy the Bookkeeping part of my business,
+                        <p class="fs-5">"I don’t really enjoy the Bookkeeping part of my business,
                             but I will get to it. It’s on my To-Do list."I've heard that. Many times. But they usually don't.
                             If this is you, then YOU need to be honest with yourself.
                             Are you really going to get to it? Do you struggle
@@ -47,9 +47,9 @@ export default function Home(props) {
                         </p>
                     </div>
                     <div className='home-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h2>1. Schedule a free consultation</h2></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h2>2. Choose a plan</h2></Link></div>
-                        <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
+                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
+                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
+                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
                     </div>
                 </>
             )
@@ -75,7 +75,7 @@ export default function Home(props) {
                         </div>
                     </div>
                     <div class="container-md mt-5 mb-5">
-                        <p class="fs-4">
+                        <p class="fs-5">
                             “Мне не очень нравится бухгалтерская часть моего бизнеса, но я доберусь до нее. Это в моем списке дел».
                             Я это слышала. Много раз. Но обычно они этого не делают. Если это вы,
                             то ВЫ должны быть честны с собой. Вы действительно до этого доберетесь? Вам сложно
@@ -88,9 +88,9 @@ export default function Home(props) {
                         </p>
                     </div>
                     <div className='home-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h2>1. Schedule a free consultation</h2></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h2>2. Choose a plan</h2></Link></div>
-                        <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
+                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
+                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
+                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
                     </div>
 
                 </>)
@@ -100,87 +100,87 @@ export default function Home(props) {
         <div className="home-main-container smcolor ">
             <img src={Account} class="img-fluid" alt="account"></img>
             {Filter()}
-            <p class="fs-1 mt-5">Bookkeeping Services</p>
+            <p class="fs-2 mt-5">Bookkeeping Services</p>
             <div className="home-all-plans">
                 <div className="home-box">
-                    <h1>StartUP</h1>
+                    <h3>StartUP</h3>
                     <hr />
-                    <h4>Starting at</h4>
-                    <h2><sup>$</sup>310 /monthly</h2>
+                    <h5>Starting at</h5>
+                    <h4><sup>$</sup>310 /monthly</h4>
                     <hr />
-                    <h4>Account set up and monthly subscription in QBO</h4>
+                    <h5>Account set up and monthly subscription in QBO</h5>
                     <hr />
-                    <h4>Monthly recording, classifying and reconciling of up to 3 bank/credit card accounts </h4>
+                    <h5>Monthly recording, classifying and reconciling of up to 3 bank/credit card accounts </h5>
                     <hr />
-                    <h4>Up to 125 transactions</h4>
+                    <h5>Up to 125 transactions</h5>
                     <hr />
-                    <h4>3 monthly financial reports (given of you in terms that you understand)</h4>
+                    <h5>3 monthly financial reports (given of you in terms that you understand)</h5>
                     <hr />
-                    <h4>Unlimited email support </h4>
+                    <h5>Unlimited email support </h5>
                     <hr />
-                    <h4>Monthly video analysis of your financial reports</h4>
+                    <h5>Monthly video analysis of your financial reports</h5>
                     <hr />
-                    <h4>No contract (30 days notice required to cancel) </h4>
+                    <h5>No contract (30 days notice required to cancel) </h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="home-book">Book a Call</h5></Link>
                 </div>
                 <div className="home-box">
-                    <h1>Standard</h1>
+                    <h3>Standard</h3>
                     <hr />
-                    <h4>Starting at</h4>
-                    <h2><sup>$</sup>460 /monthly</h2>
+                    <h5>Starting at</h5>
+                    <h4><sup>$</sup>460 /monthly</h4>
                     <hr />
-                    <h4>Account set up and monthly subscription in QBO</h4>
+                    <h5>Account set up and monthly subscription in QBO</h5>
                     <hr />
-                    <h4>Monthly recording, classifying and reconciling of up to 4 bank/credit card accounts </h4>
+                    <h5>Monthly recording, classifying and reconciling of up to 4 bank/credit card accounts </h5>
                     <hr />
-                    <h4>Up to 250 transactions</h4>
+                    <h5>Up to 250 transactions</h5>
                     <hr />
-                    <h4>3 monthly financial reports (explained in layman's terms for clarity)</h4>
+                    <h5>3 monthly financial reports (explained in layman's terms for clarity)</h5>
                     <hr />
-                    <h4>Unlimited email support </h4>
+                    <h5>Unlimited email support </h5>
                     <hr />
-                    <h4>Monthly video analysis of your financial reports</h4>
+                    <h5>Monthly video analysis of your financial reports</h5>
                     <hr />
-                    <h4>No contract (30 days notice required to cancel) </h4>
+                    <h5>No contract (30 days notice required to cancel) </h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="home-book">Book a Call</h5></Link>
                 </div>
                 <div className="home-box">
-                    <h1>Premium</h1>
+                    <h3>Premium</h3>
                     <hr />
-                    <h4>Starting at</h4>
-                    <h2><sup>$</sup>660 /monthly</h2>
+                    <h5>Starting at</h5>
+                    <h4><sup>$</sup>660 /monthly</h4>
                     <hr />
-                    <h4>Account set up and monthly subscription in QBO</h4>
+                    <h5>Account set up and monthly subscription in QBO</h5>
                     <hr />
-                    <h4>Monthly recording, classifying and reconciling of up to 5 bank/credit card accounts </h4>
+                    <h5>Monthly recording, classifying and reconciling of up to 5 bank/credit card accounts </h5>
                     <hr />
-                    <h4>3 monthly financial reports (explained in layman's terms for clarity)</h4>
+                    <h5>3 monthly financial reports (explained in layman's terms for clarity)</h5>
                     <hr />
-                    <h4>Unlimited email support </h4>
+                    <h5>Unlimited email support </h5>
                     <hr />
-                    <h4>Monthly video analysis of your financial reports OR monthly video call to chat face-to-face </h4>
+                    <h5>Monthly video analysis of your financial reports OR monthly video call to chat face-to-face </h5>
                     <br />
                     <hr />
-                    <h4>No contract (30 days notice required to cancel) </h4>
+                    <h5>No contract (30 days notice required to cancel) </h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="home-book">Book a Call</h5></Link>
                 </div>
                 <div className="home-box-cleanup">
-                    <h2>Clean Up Service</h2>
+                    <h3>Clean Up Service</h3>
                     <hr />
-                    <h3>Request Quote</h3>
+                    <h5>Request Quote</h5>
                     <hr />
-                    <h3>Book a call for custom pricing and packages</h3>
+                    <h5>Book a call for custom pricing and packages</h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="home-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="home-book">Book a Call</h5></Link>
                 </div>
             </div>
             <div className='home-footer'>
-                <h2>Are you tired from trying to keep up with your bookkeeping?
+                <h5>Are you tired from trying to keep up with your bookkeeping?
                     <hr />
-                    We take the stress out of bookkeeping and we’re in the next door, virtually.</h2>
+                    We take the stress out of bookkeeping and we’re in the next door, virtually.</h5>
             </div>
         </div>
     )

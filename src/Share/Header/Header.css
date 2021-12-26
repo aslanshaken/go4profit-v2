@@ -5,6 +5,7 @@
   margin: 40px 50px 0px 0px;
 }
 
+
 .languages{
   width: 6.5%;
   cursor: pointer;
@@ -29,7 +30,7 @@
   color: #9e7c64;
   font-size: 20px ;
   padding: 10px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .header-text:hover {
@@ -44,12 +45,12 @@
   color: rgb(255, 255, 255);
   margin: 0px 20px 0px 20px;
   padding: 10px;
-  font-weight: 800;
+  font-weight: 600;
   border-radius: 20px;
 }
 
 .image-size {
-  width: 300px;
+  width: 170px;
 }
 
 #none {

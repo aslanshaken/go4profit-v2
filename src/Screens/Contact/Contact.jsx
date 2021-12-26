@@ -13,7 +13,7 @@ export default function Contact() {
                 <div className="contact-box">
                     <h1>Call Us</h1>
                     <a href="tel:+9172007609" id="none"><img src={Call} /></a>
-                    <h3><a href="tel:+9172007609" id="none">(917)-200-7609</a></h3>
+                    <h3><a href="tel:+19172007609" id="none">+1(917)-200-7609</a></h3>
                 </div>
                 <div className="contact-box">
                     <h1>Email Us</h1>

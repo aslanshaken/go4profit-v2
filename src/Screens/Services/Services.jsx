@@ -14,9 +14,9 @@ export default function Services(props) {
         if (lang == null || lang == 'eng') {
             return (
                 <>
-                    <p class="fs-1 mt-4">Businesses We Serve</p>
+                    <p class="fs-3 mt-4">Businesses We Serve</p>
                     <div class="container-md mt-5 mb-5">
-                        <p class="fs-4">We have a big team of professionals who have 5+ experience in each
+                        <p class="fs-5">We have a big team of professionals who have 5+ experience in each
                             industry. Each of them can do several types of financial analysis such as benchmarking,
                             ratio, trend etc.
 
@@ -27,7 +27,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setTrans(!trans)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setTrans(!trans)}>
                                             Transportation
                                         </div>
                                         {trans &&
@@ -45,7 +45,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setBus(!bus)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setBus(!bus)}>
                                             Business & Information
                                         </div>
                                         {bus &&
@@ -63,7 +63,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setMtr(!mtr)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setMtr(!mtr)}>
                                             Motor Vehicle
                                         </div>
                                         {mtr &&
@@ -81,7 +81,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover">
+                                        <div class="card-header fs-6 btn hover">
                                             Real Estate & Housing
                                         </div>
                                     </div>
@@ -90,7 +90,7 @@ export default function Services(props) {
                             {/* <div class="col">
                         <div class="p-3 border">
                             <div class="card" style={{ width: "18rem;" }}>
-                                <div class="card-header fs-5 btn">
+                                <div class="card-header fs-6 btn">
                                     Health Services
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setCst(!cst)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setCst(!cst)}>
                                             Construction & Contracting
                                         </div>
                                         {cst &&
@@ -119,7 +119,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setPer(!per)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setPer(!per)}>
                                             Personal Services
                                         </div>
                                         {per &&
@@ -155,9 +155,9 @@ export default function Services(props) {
         } else {
             return (
                 <>
-                    <p class="fs-1 mt-4">ПРЕДПРИЯТИЯ, КОТОРЫЕ МЫ ОБСЛУЖИВАЕМ</p>
+                    <p class="fs-3 mt-4">ПРЕДПРИЯТИЯ, КОТОРЫЕ МЫ ОБСЛУЖИВАЕМ</p>
                     <div class="container-md mt-5 mb-5">
-                        <p class="fs-4">У нас большая команда профессионалов с опытом работы 5+ в каждой отрасли.
+                        <p class="fs-5">У нас большая команда профессионалов с опытом работы 5+ в каждой отрасли.
                             Каждый из них может выполнять несколько видов финансового анализа, таких как анализ соотношения,
                             анализ тенденций, сравнительный анализ и т.д.
 
@@ -168,7 +168,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setTrans(!trans)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setTrans(!trans)}>
                                             Транспорт
                                         </div>
                                         {trans &&
@@ -186,7 +186,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setBus(!bus)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setBus(!bus)}>
                                             Бизнесы
                                         </div>
                                         {bus &&
@@ -204,7 +204,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setMtr(!mtr)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setMtr(!mtr)}>
                                             Автомобиль
                                         </div>
                                         {mtr &&
@@ -223,25 +223,16 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover">
+                                        <div class="card-header fs-6 btn hover">
                                             Недвижимость и жилье
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div class="col">
-                        <div class="p-3 border">
-                            <div class="card" style={{ width: "18rem;" }}>
-                                <div class="card-header fs-5 btn">
-                                    Health Services
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setCst(!cst)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setCst(!cst)}>
                                             Строительство & Подрядные работы
                                         </div>
                                         {cst &&
@@ -262,7 +253,7 @@ export default function Services(props) {
                             <div class="col">
                                 <div class="p-3 border">
                                     <div class="card" style={{ width: "18rem;" }}>
-                                        <div class="card-header fs-5 btn hover" onClick={() => setPer(!per)}>
+                                        <div class="card-header fs-6 btn hover" onClick={() => setPer(!per)}>
                                             Персональные услуги
                                         </div>
                                         {per &&
@@ -304,82 +295,82 @@ export default function Services(props) {
             <br></br>
             <br></br>
             <br></br>
-            <p class="fs-1 mt-4">Bookkeeping Services</p>
+            <p class="fs-3 mt-4">Bookkeeping Services</p>
             <div className="services-all-plans">
                 <div className="services-box">
-                    <h1>StartUP</h1>
+                    <h3>StartUP</h3>
                     <hr />
-                    <h4>Starting at</h4>
-                    <h2><sup>$</sup>310 /monthly</h2>
+                    <h5>Starting at</h5>
+                    <h4><sup>$</sup>310 /monthly</h4>
                     <hr />
-                    <h4>Account set up and monthly subscription in QBO</h4>
+                    <h5>Account set up and monthly subscription in QBO</h5>
                     <hr />
-                    <h4>Monthly recording, classifying and reconciling of up to 3 bank/credit card accounts </h4>
+                    <h5>Monthly recording, classifying and reconciling of up to 3 bank/credit card accounts </h5>
                     <hr />
-                    <h4>Up to 125 transactions</h4>
+                    <h5>Up to 125 transactions</h5>
                     <hr />
-                    <h4>3 monthly financial reports (given of you in terms that you understand)</h4>
+                    <h5>3 monthly financial reports (given of you in terms that you understand)</h5>
                     <hr />
-                    <h4>Unlimited email support </h4>
+                    <h5>Unlimited email support </h5>
                     <hr />
-                    <h4>Monthly video analysis of your financial reports</h4>
+                    <h5>Monthly video analysis of your financial reports</h5>
                     <hr />
-                    <h4>No contract (30 days notice required to cancel) </h4>
+                    <h5>No contract (30 days notice required to cancel) </h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="services-book">Book a Call</h5></Link>
                 </div>
                 <div className="services-box">
-                    <h1>Standard</h1>
+                    <h3>Standard</h3>
                     <hr />
-                    <h4>Starting at</h4>
-                    <h2><sup>$</sup>460 /monthly</h2>
+                    <h5>Starting at</h5>
+                    <h4><sup>$</sup>460 /monthly</h4>
                     <hr />
-                    <h4>Account set up and monthly subscription in QBO</h4>
+                    <h5>Account set up and monthly subscription in QBO</h5>
                     <hr />
-                    <h4>Monthly recording, classifying and reconciling of up to 4 bank/credit card accounts </h4>
+                    <h5>Monthly recording, classifying and reconciling of up to 4 bank/credit card accounts </h5>
                     <hr />
-                    <h4>Up to 250 transactions</h4>
+                    <h5>Up to 250 transactions</h5>
                     <hr />
-                    <h4>3 monthly financial reports (explained in layman's terms for clarity)</h4>
+                    <h5>3 monthly financial reports (explained in layman's terms for clarity)</h5>
                     <hr />
-                    <h4>Unlimited email support </h4>
+                    <h5>Unlimited email support </h5>
                     <hr />
-                    <h4>Monthly video analysis of your financial reports</h4>
+                    <h5>Monthly video analysis of your financial reports</h5>
                     <hr />
-                    <h4>No contract (30 days notice required to cancel) </h4>
+                    <h5>No contract (30 days notice required to cancel) </h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="services-book">Book a Call</h5></Link>
                 </div>
                 <div className="services-box">
-                    <h1>Premium</h1>
+                    <h3>Premium</h3>
                     <hr />
-                    <h4>Starting at</h4>
-                    <h2><sup>$</sup>660 /monthly</h2>
+                    <h5>Starting at</h5>
+                    <h4><sup>$</sup>660 /monthly</h4>
                     <hr />
-                    <h4>Account set up and monthly subscription in QBO</h4>
+                    <h5>Account set up and monthly subscription in QBO</h5>
                     <hr />
                     <br />
-                    <h4>Monthly recording, classifying and reconciling of up to 5 bank/credit card accounts </h4>
+                    <h5>Monthly recording, classifying and reconciling of up to 5 bank/credit card accounts </h5>
                     <hr />
-                    <h4>3 monthly financial reports (explained in layman's terms for clarity)</h4>
+                    <h5>3 monthly financial reports (explained in layman's terms for clarity)</h5>
                     <hr />
-                    <h4>Unlimited email support </h4>
+                    <h5>Unlimited email support </h5>
                     <hr />
-                    <h4>Monthly video analysis of your financial reports OR monthly video call to chat face-to-face </h4>
+                    <h5>Monthly video analysis of your financial reports OR monthly video call to chat face-to-face </h5>
                     <br />
                     <hr />
-                    <h4>No contract (30 days notice required to cancel) </h4>
+                    <h5>No contract (30 days notice required to cancel) </h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="services-book">Book a Call</h5></Link>
                 </div>
                 <div className="services-box-cleanup">
-                    <h2>Clean Up Services</h2>
+                    <h3>Clean Up Services</h3>
                     <hr />
-                    <h3>Request Quote</h3>
+                    <h5>Request Quote</h5>
                     <hr />
-                    <h3>Book a call for custom pricing and packages</h3>
+                    <h5>Book a call for custom pricing and packages</h5>
                     <hr />
-                    <Link to="/book" id="none"><h4 className="services-book">Book a Call</h4></Link>
+                    <Link to="/book" id="none"><h5 className="services-book">Book a Call</h5></Link>
                 </div>
             </div>
         </div >

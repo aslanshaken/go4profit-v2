@@ -25,7 +25,8 @@ export default function Foot() {
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d873.5558803052458!2d-74.00977095783533!3d40.709691739914255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a19e00fffff%3A0xd81170f750bf2e36!2sOne%20Liberty%20Plaza!5e0!3m2!1sen!2sus!4v1624581754745!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-            <h4>© Copyright 2021 | All Rights Reserved | by <a href="https://www.linkedin.com/in/aslanshaken/" id="none" target="_blank">Aslan Shaken</a></h4>
+            <br></br>
+            <p>© Copyright 2021 | All Rights Reserved | by <a href="https://www.linkedin.com/in/aslanshaken/" id="none" target="_blank">Aslan Shaken</a></p>
         </div>
     )
 }

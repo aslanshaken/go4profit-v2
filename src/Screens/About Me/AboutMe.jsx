@@ -17,7 +17,7 @@ export default function AboutMe(props) {
                     <div className="about-me-main-img"> <img className="about-me-img" src={City} /></div>
                     <div className="about-me">
                         <div>
-                            <h2>Hi! I'm Amy, your Virtual Bookkeeper and Financial Part of your Brain!</h2>
+                            <h4>Hi! I'm Amy, your Virtual Bookkeeper and Financial Part of your Brain!</h4>
                             <div className="about-me-text">
                                 <p>
                                     <br />
@@ -61,13 +61,13 @@ export default function AboutMe(props) {
                         <div><img className="about-me-ainura" src={Ainura} /></div>
                     </div>
                     <div className='about-me-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h2>1. Schedule a free consultation</h2></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h2>2. Choose a plan</h2></Link></div>
-                        <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
+                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
+                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
+                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
                     </div>
                     <div className='about-me-main-certifications'>
                         <div className='about-me-certifications-main-text' >
-                            <h1>Bookkeeper Launch Certificate of Completion.</h1>
+                            <h3>Bookkeeper Launch Certificate of Completion.</h3>
                             <p className='about-me-certifications-text'>“The Bookkeeper Launch Certificate of Completion signifies that
                                 the earner has learned and demonstrated in-depth understanding of
                                 the skills and resources necessary to excel as a 21st Century
@@ -90,8 +90,8 @@ export default function AboutMe(props) {
                     <div className="about-me-main-img"> <img className="about-me-img" src={City} /></div>
                     <div className="about-me">
                         <div>
-                            <h2>Привет! Я Эми, ваш виртуальный бухгалтер и финансовая часть вашего мозга!
-                            </h2>
+                            <h4>Привет! Я Эми, ваш виртуальный бухгалтер и финансовая часть вашего мозга!
+                            </h4>
                             <div className="about-me-text">
                                 <p>
                                     <br />
@@ -133,9 +133,9 @@ export default function AboutMe(props) {
                         <div><img className="about-me-ainura" src={Ainura} /></div>
                     </div>
                     <div className='about-me-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h2>1. Schedule a free consultation</h2></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h2>2. Choose a plan</h2></Link></div>
-                        <div><img src={Grow} /> <h2>3. Save and Grow </h2></div>
+                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
+                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
+                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
                     </div>
                     <div className='about-me-main-certifications'>
                         <div className='about-me-certifications-main-text' >
