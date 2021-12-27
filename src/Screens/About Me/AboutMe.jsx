@@ -60,27 +60,6 @@ export default function AboutMe(props) {
                         </div>
                         <div><img className="about-me-ainura" src={Ainura} /></div>
                     </div>
-                    <div className='about-me-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
-                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
-                    </div>
-                    <div className='about-me-main-certifications'>
-                        <div className='about-me-certifications-main-text' >
-                            <h3>Bookkeeper Launch Certificate of Completion.</h3>
-                            <p className='about-me-certifications-text'>“The Bookkeeper Launch Certificate of Completion signifies that
-                                the earner has learned and demonstrated in-depth understanding of
-                                the skills and resources necessary to excel as a 21st Century
-                                Bookkeeper and business owner.”
-                                <br />
-                                <br />
-                                Credentials <a href='https://www.credly.com/badges/ecf7c5f3-dc23-4ce1-a607-9bb7aacc1e3d' id="none-black" target="_blank">Bookkeepers.com</a></p>
-                        </div>
-                        <div className="about-me-certifications">
-                            <img id="certification1" src={Launch} />
-                            <img id="certification2" src={Launch2} />
-                        </div>
-                    </div>
                 </>
             )
         }
@@ -132,27 +111,6 @@ export default function AboutMe(props) {
                         </div>
                         <div><img className="about-me-ainura" src={Ainura} /></div>
                     </div>
-                    <div className='about-me-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
-                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
-                    </div>
-                    <div className='about-me-main-certifications'>
-                        <div className='about-me-certifications-main-text' >
-                            <h1>Bookkeeper Launch Certificate of Completion.</h1>
-                            <p className='about-me-certifications-text'>“The Bookkeeper Launch Certificate of Completion signifies that
-                                the earner has learned and demonstrated in-depth understanding of
-                                the skills and resources necessary to excel as a 21st Century
-                                Bookkeeper and business owner.”
-                                <br />
-                                <br />
-                                Credentials <a href='https://www.credly.com/badges/ecf7c5f3-dc23-4ce1-a607-9bb7aacc1e3d' id="none-black" target="_blank">Bookkeepers.com</a></p>
-                        </div>
-                        <div className="about-me-certifications">
-                            <img id="certification1" src={Launch} />
-                            <img id="certification2" src={Launch2} />
-                        </div>
-                    </div>
                 </>
             )
 
@@ -161,6 +119,38 @@ export default function AboutMe(props) {
     return (
         <div className='about-me-main-container'>
             {Filter()}
-        </div>
+            <div class="row align-items-center mt-5 mb-5 p-5 steps">
+                <div class="col">
+                    <Link to="/book" id="none"><img src={Phone} />
+                        <br></br>
+                        1. Schedule a free consultation</Link>
+                </div>
+                <div class="col">
+                    <Link to="/services" id="none"><img src={Choose} />
+                        <br></br>
+                        2. Choose a plan</Link>
+                </div>
+                <div class="col">
+                    <img src={Grow} /> <br></br>
+                    3. Save and Grow
+                </div>
+            </div>
+            <div className='about-me-main-certifications'>
+                <div className='about-me-certifications-main-text' >
+                    <h3>Bookkeeper Launch Certificate of Completion.</h3>
+                    <p className='about-me-certifications-text'>“The Bookkeeper Launch Certificate of Completion signifies that
+                        the earner has learned and demonstrated in-depth understanding of
+                        the skills and resources necessary to excel as a 21st Century
+                        Bookkeeper and business owner.”
+                        <br />
+                        <br />
+                        Credentials <a href='https://www.credly.com/badges/ecf7c5f3-dc23-4ce1-a607-9bb7aacc1e3d' id="none-black" target="_blank">Bookkeepers.com</a></p>
+                </div>
+                <div className="about-me-certifications">
+                    <img id="certification1" src={Launch} />
+                    <img id="certification2" src={Launch2} />
+                </div>
+            </div>
+        </div >
     )
 }

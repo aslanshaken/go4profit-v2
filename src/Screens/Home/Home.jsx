@@ -46,11 +46,6 @@ export default function Home(props) {
                             if you're not where you want to be).
                         </p>
                     </div>
-                    <div className='home-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
-                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
-                    </div>
                 </>
             )
         } else {
@@ -87,12 +82,6 @@ export default function Home(props) {
                             вашего бизнеса. Больше никаких догадок. Это создает душевное спокойствие.
                         </p>
                     </div>
-                    <div className='home-main-steps'>
-                        <div><Link to="/book" id="none"><img src={Phone} /> <h5>1. Schedule a free consultation</h5></Link></div>
-                        <div><Link to="/services" id="none"><img src={Choose} /> <h5>2. Choose a plan</h5></Link></div>
-                        <div><img src={Grow} /> <h5>3. Save and Grow </h5></div>
-                    </div>
-
                 </>)
         }
     }
@@ -100,6 +89,22 @@ export default function Home(props) {
         <div className="home-main-container smcolor ">
             <img src={Account} class="img-fluid" alt="account"></img>
             {Filter()}
+            <div class="row align-items-center mt-5 mb-5 p-5 steps">
+                <div class="col">
+                    <Link to="/book" id="none"><img src={Phone} />
+                        <br></br>
+                        1. Schedule a free consultation</Link>
+                </div>
+                <div class="col">
+                    <Link to="/services" id="none"><img src={Choose} />
+                        <br></br>
+                        2. Choose a plan</Link>
+                </div>
+                <div class="col">
+                    <img src={Grow} /> <br></br>
+                    3. Save and Grow
+                </div>
+            </div>
             <p class="fs-2 mt-5">Bookkeeping Services</p>
             <div className="home-all-plans">
                 <div className="home-box">
@@ -177,10 +182,10 @@ export default function Home(props) {
                     <Link to="/book" id="none"><h5 className="home-book">Book a Call</h5></Link>
                 </div>
             </div>
-            <div className='home-footer'>
-                <h5>Are you tired from trying to keep up with your bookkeeping?
+            <div className='mt-5 mb-5 p-5 steps fs-5'>
+                <p>Are you tired from trying to keep up with your bookkeeping?
                     <hr />
-                    We take the stress out of bookkeeping and we’re in the next door, virtually.</h5>
+                    We take the stress out of bookkeeping and we’re in the next door, virtually.</p>
             </div>
         </div>
     )
