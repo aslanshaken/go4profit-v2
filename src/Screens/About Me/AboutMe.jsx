@@ -17,8 +17,8 @@ export default function AboutMe(props) {
                     <div className="about-me-main-img"> <img className="about-me-img" src={City} /></div>
                     <div className="about-me">
                         <div>
-                            <h4>Hi! I'm Amy, your Virtual Bookkeeper and Financial Part of your Brain!</h4>
-                            <div className="about-me-text">
+                            <h5>Hi! I'm Amy, your Virtual Bookkeeper and Financial Part of your Brain!</h5>
+                            <div className="about-me-text ">
                                 <p>
                                     <br />
                                     <br />I am thrilled that you found my site! I'm Amy, CEO of Go4Profit
@@ -69,8 +69,8 @@ export default function AboutMe(props) {
                     <div className="about-me-main-img"> <img className="about-me-img" src={City} /></div>
                     <div className="about-me">
                         <div>
-                            <h4>Привет! Я Эми, ваш виртуальный бухгалтер и финансовая часть вашего мозга!
-                            </h4>
+                            <h5>Привет! Я Эми, ваш виртуальный бухгалтер и финансовая часть вашего мозга!
+                            </h5>
                             <div className="about-me-text">
                                 <p>
                                     <br />

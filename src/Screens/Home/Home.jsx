@@ -31,7 +31,7 @@ export default function Home(props) {
                         </div>
                     </div>
                     <div class="container-md mt-5 mb-5">
-                        <p class="fs-5">"I don’t really enjoy the Bookkeeping part of my business,
+                        <p class="fs-6">"I don’t really enjoy the Bookkeeping part of my business,
                             but I will get to it. It’s on my To-Do list."I've heard that. Many times. But they usually don't.
                             If this is you, then YOU need to be honest with yourself.
                             Are you really going to get to it? Do you struggle
@@ -70,7 +70,7 @@ export default function Home(props) {
                         </div>
                     </div>
                     <div class="container-md mt-5 mb-5">
-                        <p class="fs-5">
+                        <p class="fs-6">
                             “Мне не очень нравится бухгалтерская часть моего бизнеса, но я доберусь до нее. Это в моем списке дел».
                             Я это слышала. Много раз. Но обычно они этого не делают. Если это вы,
                             то ВЫ должны быть честны с собой. Вы действительно до этого доберетесь? Вам сложно
